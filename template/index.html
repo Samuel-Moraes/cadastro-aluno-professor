@@ -53,12 +53,12 @@
 
                 <label id="label_cadastro" for="senha">Senha do Professor:</label>
                 <br />
-                <input class="input_generico_cadastro" id="senha_professor" type="password" id="senha" name="senha"
+                <input class="input_generico_cadastro" id="senha_professor" type="password"  name="senha"
                     maxlength="10" placeholder="Preencha a Senha do Professor" autocomplete="off" required />
                 <br />
                 <br />
 
-                <input class="submit_cadastro" id="submit_cadastro" type="submit" value="Cadastrar" />
+                <input class="submit_cadastro" id="submit_cadastro" type="submit" value="Cadastrar" onclick="valida_cadastro_professor(event)" />
             </form>
         </div>
         <div id="div_formulario_cadastro_generico">
