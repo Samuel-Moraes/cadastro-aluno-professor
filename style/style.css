@@ -1,0 +1,55 @@
+
+#barra_menu{
+    background-color: gray;
+}
+#barra_menu li{
+    display: inline;
+}
+#barra_menu li a{
+    color: #000;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid #696969;
+}
+#barra_menu li a:hover{
+    background-color: #696969;
+}
+
+#form_cadastro{
+text-align: center;
+}
+
+#input_formulario:hover{
+background-color: #d4d4d4;
+}
+
+#label_cadastro{
+/* font-size Serve para mudar a fonte do texto, aumentando ou diminuindo font-weight Serve para mudar o estilo da fonte, podendo ser Bold(Negrito 700) | 0~1000(Intencidade do negrito) | */
+font-size: 20px;
+font-weight: bold;
+}
+#div_form{
+display: flex;
+}
+#body_display{
+background-color: #bdb7b7;
+}
+
+#div_formulario_cadastro_generico{
+width: 50%;
+text-align: center;
+}
+
+.submit_cadastro{
+font-size: 20px;
+width: 150px;
+height: 30px;
+}
+
+.input_generico_cadastro{
+width: 550px;
+height: 35px;
+margin-top: 5px;
+margin-bottom: 5px;
+}

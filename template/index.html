@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Academico</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body id="body_display">
+    <script src="../script/script.js"></script>
+
+
+    <nav id="barra_menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="cadastro.html">Cadastro</a>
+            </li>
+            <li>
+                <a href="display.html">Display</a>
+            </li>
+            <li>
+                <a href="">Alerta</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="div_form">
+        <div id="div_formulario_cadastro_generico">
+            <h1 id="h1_titulo_cadastro">Cadastro de Professor</h1>
+
+            <form>
+                <label id="label_cadastro" for="nome_professor">Nome do Professor:</label>
+                <br />
+                <input class="input_generico_cadastro" type="text" id="id_nome_professor" name="nome_professor"
+                    placeholder="Preencha o Nome do Professor" autocomplete="off" required />
+                <br />
+
+                <label id="label_cadastro" for="email">E-mail do Professor:</label>
+                <br />
+                <input class="input_generico_cadastro" id="email_professor" type="email" id="email"
+                    name="email_professor" placeholder="Preencha o E-Mail do Professor" required />
+                <br />
+
+                <label id="label_cadastro" for="idade">Idade do Professor:</label>
+                <br />
+                <input class="input_generico_cadastro" id="idade_professor" type="number" id="idade"
+                    name="idade_professor" placeholder="Preencha a Idade do Professor" required />
+                <br />
+
+                <label id="label_cadastro" for="senha">Senha do Professor:</label>
+                <br />
+                <input class="input_generico_cadastro" id="senha_professor" type="password" id="senha" name="senha"
+                    maxlength="10" placeholder="Preencha a Senha do Professor" autocomplete="off" required />
+                <br />
+                <br />
+
+                <input class="submit_cadastro" id="submit_cadastro" type="submit" value="Cadastrar" />
+            </form>
+        </div>
+        <div id="div_formulario_cadastro_generico">
+            <h1 id="h1_titulo_cadastro">Cadastro de Aluno</h1>
+            <form>
+                <label id="label_cadastro" for="nome_estudante">Nome do Estudante:</label>
+                <br />
+                <input class="input_generico_cadastro" id="nome_estudante" type="text" id="input_nome_estudante"
+                    name="nome_estudante" placeholder="Preencha o Nome do Estudante" required />
+                <br />
+
+                <label id="label_cadastro" for="email">E-mail do Estudante:</label>
+                <br />
+                <input class="input_generico_cadastro" id="email_estudante" type="email" id="email"
+                    name="email_estudante" placeholder="Preencha o E-Mail do Estudante" required />
+                <br />
+
+                <label id="label_cadastro" for="idade">Idade do Estudante:</label>
+                <br />
+                <input class="input_generico_cadastro" id="idade_estudante" type="number" id="idade"
+                    name="idade_estudante" placeholder="Preencha a Idade do Estudante" required />
+                <br />
+
+                <label id="label_cadastro" for="senha">Senha do Estudante:</label>
+                <br />
+                <input class="input_generico_cadastro" id="senha_estudante" type="password" id="senha" name="senha"
+                    maxlength="10" placeholder="Preencha a Senha do Estudante" autocomplete="off" required />
+                <br />
+                <br />
+
+                <input class="submit_cadastro" id="submit_cadastro_estudante" type="submit" value="Cadastrar" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
