@@ -53,3 +53,47 @@ height: 35px;
 margin-top: 5px;
 margin-bottom: 5px;
 }
+
+#div_body_login{
+    background-color: #bdb7b5;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+
+}
+#corpo_login{
+    background-color: aquamarine;
+    width: 500px;
+    height: 600px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 1px;
+}
+#id_form_login{
+    text-align: center;
+}
+#h1_tela_login{
+    text-align: center;
+}
+
+.class_label_login{
+    text-align: center;
+    font-size: 24px;
+}
+
+.class_input_login{
+    width: 450px;
+    height: 30px;
+}
+
+.class_div_login{
+    padding: 20px;
+}
+.class_barra_recursos_login{
+    padding-right: 10px;
+    text-align: right;
+    padding: 10px;
+}
+
+#id_esqueci_minha_senha{
+    text-decoration: dashed;
+}

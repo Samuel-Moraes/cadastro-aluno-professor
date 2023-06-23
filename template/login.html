@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Academico</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body id="body_display">
+    <script src="../script/script.js"></script>
+
+
+    <nav id="barra_menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="cadastro.html">Cadastro</a>
+            </li>
+            <li>
+                <a href="display.html">Display</a>
+            </li>
+            <li>
+                <a href="">Alerta</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="div_body_login">
+        <div id="corpo_login">
+            <h1 id="h1_tela_login">Seja bem vindo ao login!</h1>
+
+            <form id="id_form_login">
+                <div class="class_div_login">
+                    <label class="class_label_login" for="email">E-mail:</label>
+                    <br />
+                    <input class="class_input_login" id="email_login" type="email" id="email" name="email_login"
+                        placeholder="Insira seu E-Mail" required />
+                    <br />
+                </div>
+                <div class="class_div_login">
+                    <label class="class_label_login" for="senha">Senha:</label>
+                    <br />
+                    <input class="class_input_login" id="senha_login" type="password" name="senha" maxlength="6"
+                        placeholder="Insira sua senha" autocomplete="off" required />
+                    <br />
+                </div>
+                <div class="class_barra_recursos_login">
+                    <a href="google.com" id="id_esqueci_minha_senha">Esqueci minha senha</a>
+                </div>
+                <input class="submit_cadastro" id="submit_login" type="submit" value="Entrar" onclick="realiza_login(event)" />
+            
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
